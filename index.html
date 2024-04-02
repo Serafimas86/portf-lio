@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aline Serafim da Silva - Desenvolvedora Frontend | Analista QA</title>
+
+  <link rel="stylesheet" href="src/css/font-awesome.css" />
+  <link rel="stylesheet" href="src/css/reset.css" />
+
+  <!-- Global -->
+  <link rel="stylesheet" href="src/css/globais.css" />
+  <link rel="stylesheet" href="src/css/variaveis.css" />
+  <link rel="stylesheet" href="src/css/secoes/header.css" />
+  <link rel="stylesheet" href="src/css/secoes/home.css" />
+  <link rel="stylesheet" href="src/css/secoes/sobre.css" />
+  <link rel="stylesheet" href="src/css/secoes/habilidades.css" />
+  <link rel="stylesheet" href="src/css/secoes/projetos.css" />
+  <link rel="stylesheet" href="src/css/secoes/footer.css" />
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="row justify-content-between alinhar-itens-no-centro">
+        <a href="#">
+          <h1 class="logo">AlS</h1>
+        </a>
+        <nav>
+          <input id="menu-hamburguer" type="checkbox" />
+
+          <label for="menu-hamburguer">
+            <div class="menu">
+              <span class="hamburguer"></span>
+            </div>
+          </label>
+          <ul>
+            <li><a href="#sobre-mim">Sobre mim</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#projetos">Meus projetos</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <section class="home">
+    <div class="container">
+      <div class="row full-screen alinhar-itens-no-centro">
+        <div class="texto-home">
+          <p>Olá 🖖,</p>
+          <h1>Sou a Aline Serafim da Silva</h1>
+          <h2>Desenvolvedora Frontend | Analista QA</h2>
+
+          <div class="redes-sociais">
+            <a href="https://www.linkedin.com/in/aline-serafim-ba10a4213/" target="_blank" class="outer-shadow"><i
+                class="fab fa-linkedin-in"></i></a>
+            <a href="https://wa.me/5548996138771" target="_blank" class="outer-shadow"><i
+                class="fab fa-whatsapp"></i></a>
+            <a href="https://github.com/Serafimas86" target="_blank" class="outer-shadow"><i
+                class="fab fa-github"></i></a>
+            <!-- <a href="#" class="outer-shadow"><i class="fab fa-instagram"></i></a> -->
+          </div>
+        </div>
+
+        <!-- <div class="img-home">
+          <div class="img-box inner-shadow">
+            <img class="outer-shadow" src="src/imagens/foto-perfil.png" alt="foto do perfil do Ricardo" />
+          </div>
+        </div> -->
+      </div>
+    </div>
+  </section>
+  <section class="sobre-mim section" id="sobre-mim">
+    <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <h2>Sobre mim</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="imagem-sobre-mim">
+          <div class="img-box inner-shadow">
+            <img src="src/imagens/foto-perfil.png" alt="foto sobre mim" class="outer-shadow" />
+          </div>
+        </div>
+        <div class="informacoes-sobre-mim">
+          <p>
+            <strong>Olá! Me chamo Aline Serafim da Silva e sou uma desenvolvedora frontend!</strong>
+            Gosto muito da área de tecnologia, e tenho certeza que posso contribuir em qualquer time com as minhas
+            habilidades.
+          </p>
+
+          <p>
+            Estou buscando desafios nesta nova área, embarcando em novos projetos e buscando constantemente aprender com
+            colegas desenvolvedores. Ao mesmo tempo, procuro contribuir com minha experiência para ajudar aqueles que
+            estão começando. 😁
+          </p>
+
+          <p>
+            Ah, gosto de filmes, séries, livros e lutas. 💜
+          </p>
+
+          <div class="botoes">
+            <a target="_blank" href="src/imagens/Currículo.pdf" class="botao outer-shadow">Veja meu CV</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="habilidades section" id="habilidades">
+    <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <h2>Habilidades</h2>
+        </div>
+      </div>
+
+      <div class="container-habilidades">
+        <div class="informacoes html">
+          <div class="logo">
+            <i class="devicon devicon-html5-plain-wordmark" id="html"></i>
+          </div>
+          <h3>HTML5</h3>
+          <p>Semântica, Formulários Aprimorados, Áudio e Vídeo, Responsive Web Design, Integração de APIs Externas.</p>
+        </div>
+
+        <div class="informacoes css">
+          <div class="logo">
+            <i class="devicon devicon-css3-plain-wordmark" id="css"></i>
+          </div>
+          <h3>CSS3</h3>
+          <p>Flexbox e Grid Layout, Transições e Animações, Media Queries, Variáveis CSS (CSS Variables), Fontes
+            Personalizadas (Web Fonts), Layout Responsivo, Trabalho com Imagens.</p>
+        </div>
+
+        <div class="informacoes javascript">
+          <div class="logo">
+            <i class="devicon devicon-javascript-plain" id="javascript"></i>
+          </div>
+          <h3>JavaScript</h3>
+          <p>Sintaxe Básica, Manipulação do DOM, Trabalho com Arrays e Objetos, Promises e Async/Await, Manipulação de
+            Strings e Expressões Regulares, Frameworks e Bibliotecas.</p>
+        </div>
+
+        <div class="informacoes github">
+          <div class="logo">
+            <i class="devicon devicon-github-original" id="github"></i>
+          </div>
+          <h3>GitHub</h3>
+          <p>Criação de Repositórios, Controle de Versão, Pull Requests (PRs), Forking e Clonagem, Colaboração e
+            Comunicação e GitHub Pages.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="projetos section" id="projetos">
+    <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <h2>Meus projetos</h2>
+        </div>
+      </div>
+
+      <div class="container-projetos">
+        <div class="projeto">
+          <a href="https://github.com/Serafimas86/szpc-projeto-warrior-run">
+            <img src="src/gif/WarriorNun.gif" alt="szpc-projeto-warrior-run" />
+            <h3>Projeto 1</h3>
+            <div class="informacoes-projeto">
+              <p>Projeto feito usando HTML, CSS e JavaScript</p>
+              <p>🔗 Ver no GitHub Pages</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="projeto">
+          <a href="https://github.com/Serafimas86/projeto-pokedex">
+            <img src="src/gif/pokedex.gif" alt="projeto-pokedex" />
+            <h3>Projeto 2</h3>
+            <div class="informacoes-projeto">
+              <p>Essa Single Page Application foi construída usando React.js e os Styled Components utilizando a API
+                PokeApi.</p>
+              <p>🔗 Ver no GitHub Pages</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="projeto">
+          <a href="https://github.com/Serafimas86/Projeto-Fetch-GitHub-API">
+            <img src="src/gif/gitHub-Api.gif" alt="Projeto-Fetch-GitHub-API" />
+            <h3>Projeto 3</h3>
+            <div class="informacoes-projeto">
+              <p>Projeto feito usando HTML, CSS e JavaScript</p>
+              <p>🔗 Ver no GitHub Pages</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="projeto">
+          <a href="https://github.com/Serafimas86/TCC-EBAC">
+            <img src="./src/gif/Teste-automatizado.gif" alt="TCC-EBAC" />
+            <h3>Projeto 4</h3>
+            <div class="informacoes-projeto">
+              <p>Testes funcionais e automatizados</p>
+              <p>🔗 Ver no GitHub Pages</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <h2>Me envie uma mensagem!</h2>
+      <div class="redes-sociais">
+        <a href="https://www.linkedin.com/in/aline-serafim-ba10a4213/" target="_blank" class="outer-shadow"><i
+            class="fab fa-linkedin-in"></i></a>
+        <a href="https://wa.me/5548996138771" target="_blank" class="outer-shadow"><i class="fab fa-whatsapp"></i></a>
+        <a href="https://github.com/Serafimas86" target="_blank" class="outer-shadow"><i class="fab fa-github"></i></a>
+        <!-- <a href="#" class="outer-shadow"><i class="fab fa-instagram"></i></a> -->
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
